@@ -5,6 +5,18 @@ st.title("Experience")
 
 st.markdown("----")
 
+st.image("images/importal_3D.png", width = 250)
+st.markdown("## Founding Engineer")
+st.markdown("Oct 2024 - Present")
+
+st.markdown("### Full Stack Developer")
+expander = st.expander("Read more")
+expander.markdown("Built a multi-modal document parsing system using foundation models via AWS Bedrock to extract structured data from scanned and text-based documents.")
+expander.markdown("Developed a scalable pipeline to parse legal trade documents and power a RAG-based chatbot for expert assistance.")
+expander.markdown("Worked across backend, APIs, and frontend to deliver a full-stack compliance tool.")
+expander.markdown("Languages: Python, TypeScript")
+expander.markdown("Technology: AWS Bedrock, MongoDB, LangChain, BullMQ, Node.js, React, REST APIs, Foundation Models, RAG, Knowledge Graphs, HTML Parsing")
+
 st.image("images/gm.png", width = 250)
 st.markdown("## Software Engineer")
 st.markdown("Jul 2020 - Aug 2024")

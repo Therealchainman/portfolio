@@ -30,13 +30,15 @@ class Project:
         return f"Project(title = {self.title}, image_path = {self.image_path}, github_repo = {self.github_repo}, description = {self.description})"
 
 # json could be title -> image_path, github_repo, description
-projects = [{
-    "title": "Movie Reservation System",
-    "date": "Sept 2024",
-    "image_path": "images/movie_reservation_system.png",
-    "github_repo": "movie_reservation_system",
-    "description": """I'm working on this project to gain more experience with turning business logic into a fully working backend. 
-               I plan to create a blogpost and video going over this project when it is complete or has more progress."""
+projects = [
+    {
+        "title": "Competitive Programming",
+        "date": "2021 - Present",
+        "image_path": "images/recursion_tree.png",
+        "github_repo": "archive-cp",
+        "description": """I have always been really fascinated by algorithms and data structures.  And I solve various problems from contests hosted by 
+        many universities, and online platforms like Codeforces, AtCoder, LeetCode, etc.  I store all the problems I've solved in this repository,
+        and store fascinating algorithms, and data structures I've come across from these puzzles."""
     },
     {
     "title": "Streamlit Visualizations",
